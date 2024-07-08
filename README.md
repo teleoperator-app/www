@@ -166,8 +166,12 @@ Specyfikacja Interfejsu UI/UX
 3. **Producent** wypełnia formularz, dołączając wszystkie niezbędne informacje i zdjęcia.
 4. **Produkt** pojawia się w marketplace, gotowy do przeglądania przez klientów i instalatorów.
 
- [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/FOOT.md)
+## About us [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/FOOT.md)
++ [softreck.com](http://softreck.com)
++ [telemonit.com](http://telemonit.com)
 
+
+---
 
 ## Flatedit [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/CONTRIBUTE/CONTRIBUTE.md)
 
