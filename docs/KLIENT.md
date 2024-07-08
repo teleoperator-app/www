@@ -1,6 +1,4 @@
-
-
-#### 2. Panel Klienta
+## Panel Klienta
 - **Wyszukiwanie Instalatora**:
   - **Filtry Wyszukiwania**: Lokalizacja, dostępność, recenzje, koszt maksimum.
   - **Lista Instalatorów**: Z profilem, dostępnością terminów, recenzjami i cennikami usług.

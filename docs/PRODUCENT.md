@@ -1,4 +1,5 @@
 ## Panel Producenta
+
 - **Dodawanie Produktów**:
   - **Formularz Dodawania**: Formularz do wprowadzania informacji o nowych produktach, w tym opisów, zdjęć, cen, stanów magazynowych.
 

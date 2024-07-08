@@ -1,7 +1,5 @@
-
-Specyfikacja Interfejsu UI/UX:
-
-#### Strona Główna
+## Strona Główna
+Specyfikacja Interfejsu UI/UX
 
 - **Menu Główne**: Zakładki takie jak "Znajdź Instalatora", "Produkty", "Moje konto", "Pomoc".
 - **Pole Wyszukiwania**: Umożliwiające wyszukiwanie instalatorów lub produktów.

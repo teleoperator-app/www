@@ -1,7 +1,6 @@
 docs/HEAD.md
 docs/MAIN.md
 docs/INSTALL.md
-docs/INIT.md
 docs/STRUCTURE.md
 docs/PLAN.md
 docs/PANEL.md
@@ -10,6 +9,7 @@ docs/INSTALATOR.md
 docs/PRODUCENT.md
 docs/SUPPORT.md
 docs/USECASE.md
+docs/TODO.md
 docs/FOOT.md
 
 

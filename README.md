@@ -5,14 +5,16 @@
 
 ## Cel projektu [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/MAIN.md)
 
-Celem projektu jest kompleksowa aplikacja dla instalatorów kamer i systemów monitoringu, producentów oraz klientów końcowych.
+**teleoperator.app** łączy instalatorów kamer i systemów monitoringu, producentów oraz klientów końcowych,
 
----
+## Grupa docelowa
 
-Aplikacja dla instalatorów kamer i systemów monitoringu, market place dla producentów do tworzenia oferta oraz panel dla klientów do zamawiania produktów i usług oraz rozliczania i supportu. Jak najlepiej wykonać taką aplikację podaj przykład specyfikacji interfejsu.
+dla instalatorów kamer i systemów monitoringu, marketplace dla producentów do tworzenia oferta 
+oraz panel dla klientów do zamawiania produktów i usług oraz rozliczania i supportu. 
 
 
-Przykłady użycia aplikacji:
+### Przykłady użycia aplikacji
+
 - klient końcowy szuka instalatora, który pracuje w regionie i wykonuje daną usługę. Klient wybiera z listy dostępne terminy i maksymalny koszt usługi.
 - instalator otrzymuje powiadomienie o zleceniu i akceptuje bądź proponuje inne warunki wykonania usługi, lub prosi o dodatkowe dane.
 - klient udostępnia fotografie obiektu, opisuje głosowo lub tekstowo oczekiwania,
@@ -21,28 +23,6 @@ Przykłady użycia aplikacji:
 - w panelu klienta pojawia się  umowa do akceptacji i zapłaty, status wykonania zlecenia,
 - po wykonaniu zlecenia zleceniodawca  otrzymuje zapłatę za usługę i wystawia ocenę dla zlecniodawcy
 - zleceniobiorca wystawia ocenę zleceniodawcy
-
-
-Stworzenie aplikacji, która łączy instalatorów kamer i systemów monitoringu, producentów oraz klientów końcowych, wymaga starannego zaprojektowania zarówno interfejsu użytkownika (UI) jak i funkcjonalności backendu.
-
-
-### Specyfikacja Interfejsu UI/UX:
-
-#### 1. Strona Główna
-- **Menu Główne**: Zakładki takie jak "Znajdź Instalatora", "Produkty", "Moje konto", "Pomoc".
-- **Pole Wyszukiwania**: Umożliwiające wyszukiwanie instalatorów lub produktów.
-- **Panel Logowania/Rejestracji**: Korzystający z systemu mogą się zalogować, zarejestrować lub odzyskać hasło.
-
-#### 2. Panel Klienta
-- **Wyszukiwanie Instalatora**:
-    - **Filtry Wyszukiwania**: Lokalizacja, dostępność, recenzje, koszt maksimum.
-    - **Lista Instalatorów**: Z profilem, dostępnością terminów, recenzjami i cenn
-
-
-Profesjonalnie brzmiąca, sugeruje związek z technologią i systemami monitoringu.
-
-
-Może być myląca, jako że "tele" może kierować myśli w stronę telekomunikacji lub operatorów telewizji kablowej.
 
 ## install python [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/INSTALL.md)
 
@@ -59,9 +39,6 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```bash
 py -m pip install -r requirements.txt
 ```
-
- [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/INIT.md)
-
 
  [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/STRUCTURE.md)
 
@@ -98,6 +75,7 @@ teleoperator-app/
 ```
 
 ## Techniczne Zasady i Wymagania [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/PLAN.md)
+
 Plan zapewnia pełne pokrycie ważnych funkcjonalności dla wszystkich użytkowników aplikacji, dostosowane do potrzeb instalatorów, producentów oraz klientów końcowych.
 
 - **Backend**: Architektura oparta na mikrousługach, np. RESTful API.
@@ -108,18 +86,14 @@ Plan zapewnia pełne pokrycie ważnych funkcjonalności dla wszystkich użytkown
 - **Hosting**: Chmura (AWS, Google Cloud, Azure) dla skalowalności i niezawodności.
 - **Integracje Płatności**: PayPal, Stripe, tradycyjne przelewy bankowe.
 
- [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/PANEL.md)
-Specyfikacja Interfejsu UI/UX:
-
-#### Strona Główna
+## Strona Główna [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/PANEL.md)
+Specyfikacja Interfejsu UI/UX
 
 - **Menu Główne**: Zakładki takie jak "Znajdź Instalatora", "Produkty", "Moje konto", "Pomoc".
 - **Pole Wyszukiwania**: Umożliwiające wyszukiwanie instalatorów lub produktów.
 - **Panel Logowania/Rejestracji**: Korzystający z systemu mogą się zalogować, zarejestrować lub odzyskać hasło.
 
- [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/KLIENT.md)
-
-#### 2. Panel Klienta
+## Panel Klienta [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/KLIENT.md)
 - **Wyszukiwanie Instalatora**:
   - **Filtry Wyszukiwania**: Lokalizacja, dostępność, recenzje, koszt maksimum.
   - **Lista Instalatorów**: Z profilem, dostępnością terminów, recenzjami i cennikami usług.
@@ -218,6 +192,7 @@ Ten plan zapewnia pełne pokrycie ważnych funkcjonalności dla wszystkich użyt
  - **Wystawianie Oceny**: Możliwość ocenienia klientów po zakończeniu zlecenia.
 
 ## Panel Producenta [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/PRODUCENT.md)
+
 - **Dodawanie Produktów**:
   - **Formularz Dodawania**: Formularz do wprowadzania informacji o nowych produktach, w tym opisów, zdjęć, cen, stanów magazynowych.
 
@@ -252,6 +227,66 @@ Ten plan zapewnia pełne pokrycie ważnych funkcjonalności dla wszystkich użyt
 2. **Producent** wybiera opcję "Dodaj Produkt".
 3. **Producent** wypełnia formularz, dołączając wszystkie niezbędne informacje i zdjęcia.
 4. **Produkt** pojawia się w marketplace, gotowy do przeglądania przez klientów i instalatorów.
+
+## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/TODO.md)
+
+### Podsumowanie i Następne Kroki
+
+1. **Scalowanie**: W miarę potrzeb dodawaj więcej komponentów, takich jak formularze rejestracyjne, kalendarze dostępności, panele administracyjne itd.
+2. **Backend**: Rozważ implementację rzeczywistego backendu z REST API lub GraphQL.
+3. **Autoryzacja**: Zaimplementuj system autoryzacji, np. OAuth2.
+4. **Testowanie**: Dodaj testy jednostkowe i integracyjne, korzystając np. z Jest i React Testing Library.
+5. **Responsywność**: Dopracuj stylizację, aby aplikacja działała dobrze na różnych urządzeniach.
+
+To da Ci solidne podstawy do budowania zaawansowanej aplikacji webowej dla instalatorów kamer i systemów monitoringu.### Podsumowanie i Strategia Dalszego Rozwoju
+
+Na tym etapie stworzyliśmy podstawową makietę aplikacji webowej z wykorzystaniem technologii React.js, która jest łatwa do modyfikacji. Omówiliśmy kroki, od inicjalizacji projektu, przez utworzenie podstawowej struktury komponentów, aż po integrację z symulowanym API (MSW). Poniżej przedstawiam dodatkowe wskazówki, które mogą pomóc w dalszym rozwoju projektu.
+
+### 1. Scalowanie i Nowe Funkcjonalności
+
+Dodanie bardziej kompleksowych komponentów takich jak:
+- **Formularze Rejestracyjne**: Komponenty z walidacją np. z wykorzystaniem `formik` do łatwego zarządzania formularzami w React.js.
+- **Kalendarze Dostępności**: Implementacja bardziej zaawansowanych kalendarzy z możliwością zarządzania wolnym czasem instalatorów, np. z użyciem bibliotek takich jak `react-big-calendar`.
+- **Panele Administracyjne**: Widoki i funkcje dla administratorów, tj. zarządzanie użytkownikami, zamówieniami i produktami.
+
+### 2. Backend Integration
+
+Ciężar logiki biznesowej i przechowywania danych przenieś na backend:
+- **API REST**: Zaimplementuj prawdziwe API, preferencyjnie w Node.js z Express, Django, czy innej technologii, z której korzystasz.
+- **GraphQL**: Alternatywnie użyj GraphQL do bardziej elastycznego zarządzania danymi.
+- **Serwery**: Hostuj backend na platformach takich jak AWS, Google Cloud, Heroku.
+
+### 3. Uwierzytelnianie i Autoryzacja
+
+Zaimplementuj bezpieczne logowanie i autoryzowanie użytkowników:
+- **OAuth2**: Integracja z popularnymi providerami tożsamości (Google, Facebook).
+- **JWT**: Użyj JSON Web Tokens do bezpiecznego przekazywania informacji o autoryzacji.
+
+### 4. Testowanie i Utrzymanie Jakości
+
+Wprowadź narzędzia do testowania kodu, jego analizy i ciągłej integracji:
+- **Jest i React Testing Library**: Testuj komponenty oraz interakcje.
+- **ESLint i Prettier**: Zapewniaj spójność kodu i szybkie wyłapywanie błędów.
+- **Ciągła Integracja (CI)**: Ustaw np. w GitHub Actions, CircleCI, TravisCI.
+
+### 5. Ulepszanie Stylizacji i Responsywności
+
+Dostosuj aplikację do różnych urządzeń i ulepsz jej wygląd:
+- **CSS-in-JS**: Rozważ użycie bibliotek takich jak `styled-components` lub `emotion`.
+- **Responsywność**: Zapewnij, aby Twoje komponenty dobrze wyglądały zarówno na urządzeniach mobilnych, jak i desktopowych z pomocą `flexbox`, `grid` oraz media queries.
+
+### 6. Monitorowanie i Optymalizacja
+
+Monitoruj działanie aplikacji i poprawiaj jej wydajność:
+- **Google Analytics**: Śledź ruch i zachowania użytkowników.
+- **Logi i Monitoring**: Zaimplementuj systemy logowania błędów i monitorowania wydajności (np. Sentry, New Relic).
+- **Optymalizacja Wydajności**: Przeprowadź optymalizację komponentów React używając technik takich jak lazy loading, memoization.
+
+### 7. DevOps i Automatyzacja
+
+Automatyzacja procesów wdrożeniowych zapewni częste i pewne wdrożenia:
+- **Docker i Kubernetes**: Zautomatyzuj wdrożenia aplikacji przy użyciu konteneryzacji.
+- **CI/CD**: Implementacja potoków CI/CD do automatyzacji buildów, testów i wdrożeń.
 
  [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/FOOT.md)
 

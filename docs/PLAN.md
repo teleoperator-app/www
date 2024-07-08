@@ -1,4 +1,5 @@
 ## Techniczne Zasady i Wymagania
+
 Plan zapewnia pełne pokrycie ważnych funkcjonalności dla wszystkich użytkowników aplikacji, dostosowane do potrzeb instalatorów, producentów oraz klientów końcowych.
 
 - **Backend**: Architektura oparta na mikrousługach, np. RESTful API.
