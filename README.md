@@ -144,9 +144,9 @@ Specyfikacja Interfejsu UI/UX
 - **Baza Wiedzy**: Artykuły, FAQ, poradniki.
 - **Kontakt**: Formularz kontaktowy, live chat, numer telefonu do wsparcia.
 
-## Przykład Scenariuszy Użycia [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/USECASE.md)
+## Scenariusze Użycia [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/USECASE.md)
 
-### Scenariusz 1: Klient szuka instalatora
+### 1. Klient szuka instalatora
 
 1. **Klient** loguje się do aplikacji i wybiera opcję "Znajdź Instalatora".
 2. **Klient** używa filtrów, aby zawęzić wyszukiwanie do instalatorów działających w jego regionie i posiadających odpowiednie oceny oraz pasujący koszt usługi.
@@ -159,7 +159,7 @@ Specyfikacja Interfejsu UI/UX
 9. **Klient** ocenia instalatora po zakończeniu usługi.
 10. **Instalator** ocenia klienta.
 
-### Scenariusz 2: Producent dodaje nowy produkt
+### 2. Producent dodaje nowy produkt
 
 1. **Producent** loguje się do swojego panelu.
 2. **Producent** wybiera opcję "Dodaj Produkt".
