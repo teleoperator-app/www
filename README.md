@@ -125,7 +125,7 @@ Specyfikacja Interfejsu UI/UX
 
 ---
 
-## Flatedit [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/CONTRIBUTE/CONTRIBUTE.md)
+## Dokumentacja [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/CONTRIBUTE/CONTRIBUTE.md)
 
 ```bash
 wget https://raw.githubusercontent.com/flatedit/bash/main/flatedit.sh
