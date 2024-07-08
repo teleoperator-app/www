@@ -1,7 +1,6 @@
 
-# [teleoperator.app](www.teleoperator.app) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/HEAD.md)
+![teleoperator-app.png](img/teleoperator-app.png) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/HEAD.md)
 
-![teleoperator-app.png](img/teleoperator-app.png)
 
 ## Cel projektu [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/MAIN.md)
 
