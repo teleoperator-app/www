@@ -3,7 +3,7 @@
 
 [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/teleoperator-app/www) [![GitHub stars](https://img.shields.io/github/stars/teleoperator-app/www.svg?style=flat&label=Star)](https://github.com/teleoperator-app/www/stargazers) [![GitHub forks](https://img.shields.io/github/forks/teleoperator-app/www.svg?style=flat&label=Fork)](https://github.com/teleoperator-app/www/fork) [![GitHub watchers](https://img.shields.io/github/watchers/teleoperator-app/www.svg?style=flat&label=Watch)](https://github.com/teleoperator-app/www/watchers) [![GitHub followers](https://img.shields.io/github/followers/teleoperator-app.svg?label=Follow)](https://github.com/teleoperator-app) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fteleoperator-app%2Fwww&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)
 
-## Reports
+## MENU [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/MENU.md)
 
 + [Detekcja obiektów w systemach wizyjnych - Raport www - Jak zmieniał się rynek systemów wizyjnych w zastosowaniach przemysłowych w ostatniej dekadzie? Jak zmieni się rynek do roku 2030?](https://www.teleoperator.info/)
 + [CCTV 2024 - Global Report](http://cctv.teleoperator.info)

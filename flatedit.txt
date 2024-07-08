@@ -1,4 +1,5 @@
 docs/HEAD.md
+docs/MENU.md
 docs/MAIN.md
 docs/PLAN.md
 docs/PANEL.md
