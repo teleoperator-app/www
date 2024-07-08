@@ -1,4 +1,4 @@
-## install python
+## Install
 
 Zainstaluj biblioteki Pythona, jeśli jeszcze tego nie zrobiłeś. Możesz to zrobić używając `pip`:
 

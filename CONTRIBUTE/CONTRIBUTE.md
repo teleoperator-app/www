@@ -1,4 +1,4 @@
-flatedit Install
+## Flatedit
 
 ```bash
 wget https://raw.githubusercontent.com/flatedit/bash/main/flatedit.sh
