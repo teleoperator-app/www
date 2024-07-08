@@ -1,8 +1,9 @@
 
- [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/HEAD.md)
+# [teleoperator.app](www.teleoperator.app) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/HEAD.md)
 
+![teleoperator-app.png](img/teleoperator-app.png)
 
-# [teleoperator.app](www.teleoperator.app) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/MAIN.md)
+## Cel projektu [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/MAIN.md)
 
 Celem projektu jest kompleksowa aplikacja dla instalatorów kamer i systemów monitoringu, producentów oraz klientów końcowych.
 
@@ -250,10 +251,8 @@ teleoperator-app/
 └── ...
 ```
 
- [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/PANEL.md)
-
-
-### Techniczne Zasady i Wymagania
+## Techniczne Zasady i Wymagania [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/PLAN.md)
+Plan zapewnia pełne pokrycie ważnych funkcjonalności dla wszystkich użytkowników aplikacji, dostosowane do potrzeb instalatorów, producentów oraz klientów końcowych.
 
 - **Backend**: Architektura oparta na mikrousługach, np. RESTful API.
 - **Frontend**: Technologie jak React.js, Angular albo Vue.js.
@@ -263,8 +262,7 @@ teleoperator-app/
 - **Hosting**: Chmura (AWS, Google Cloud, Azure) dla skalowalności i niezawodności.
 - **Integracje Płatności**: PayPal, Stripe, tradycyjne przelewy bankowe.
 
-Ten plan zapewnia pełne pokrycie ważnych funkcjonalności dla wszystkich użytkowników aplikacji, dostosowane do potrzeb instalatorów, producentów oraz klientów końcowych.
-
+ [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/PANEL.md)
 Specyfikacja Interfejsu UI/UX:
 
 #### Strona Główna
@@ -356,8 +354,8 @@ Specyfikacja Interfejsu UI/UX:
 
 Ten plan zapewnia pełne pokrycie ważnych funkcjonalności dla wszystkich użytkowników aplikacji, dostosowane do potrzeb instalatorów, producentów oraz klientów końcowych.
 
- [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/INSTALATOR.md)
-#### Panel Instalatora
+## Panel Instalatora [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/INSTALATOR.md)
+
 - **Dashboard**:
   - **Powiadomienia**: Informacje o nowych zleceniach, wymaganych akcjach, wiadomościach od klientów.
   - **Mój Kalendarz**: Widok dostępnych terminów i zarezerwowanych usług.
@@ -373,7 +371,7 @@ Ten plan zapewnia pełne pokrycie ważnych funkcjonalności dla wszystkich użyt
 - **Oceny Klientów**: 
  - **Wystawianie Oceny**: Możliwość ocenienia klientów po zakończeniu zlecenia.
 
-#### Panel Producenta [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/PRODUCENT.md)
+## Panel Producenta [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/PRODUCENT.md)
 - **Dodawanie Produktów**:
   - **Formularz Dodawania**: Formularz do wprowadzania informacji o nowych produktach, w tym opisów, zdjęć, cen, stanów magazynowych.
 

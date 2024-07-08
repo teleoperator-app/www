@@ -1,4 +1,4 @@
-# [teleoperator.app](www.teleoperator.app)
+## Cel projektu
 
 Celem projektu jest kompleksowa aplikacja dla instalatorów kamer i systemów monitoringu, producentów oraz klientów końcowych.
 

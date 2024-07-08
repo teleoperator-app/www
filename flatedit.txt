@@ -4,6 +4,7 @@ docs/INSTALL.md
 docs/DOCKER.md
 docs/INIT.md
 docs/STRUCTURE.md
+docs/PLAN.md
 docs/PANEL.md
 docs/KLIENT.md
 docs/INSTALATOR.md

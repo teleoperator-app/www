@@ -1,5 +1,5 @@
+## Panel Instalatora
 
-#### Panel Instalatora
 - **Dashboard**:
   - **Powiadomienia**: Informacje o nowych zleceniach, wymaganych akcjach, wiadomościach od klientów.
   - **Mój Kalendarz**: Widok dostępnych terminów i zarezerwowanych usług.
