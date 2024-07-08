@@ -10,7 +10,7 @@ COPY package*.json ./
 RUN npm install
 
 # Skopiuj pozostałe pliki do katalogu roboczego
-COPY . .
+COPY src .
 
 # Build aplikacji React
 RUN npm run build

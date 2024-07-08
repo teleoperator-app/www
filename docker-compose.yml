@@ -4,7 +4,7 @@ services:
 
   build:
     build:
-      context: ./src
+      context: .
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
@@ -12,10 +12,12 @@ services:
 
   frontend:
     build:
-      context: .
+      context: ./public
       dockerfile: Dockerfile
     ports:
       - "80:80"
+    volumes:
+      - ./build:/usr/share/nginx/html
     depends_on:
       - backend
       - build
