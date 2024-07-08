@@ -1,18 +1,23 @@
 ## TODO
 
+Na tym etapie stworzyliśmy podstawową makietę aplikacji webowej z wykorzystaniem technologii React.js, która jest łatwa do modyfikacji.
+Od inicjalizacji projektu, przez utworzenie podstawowej struktury komponentów, aż po integrację z symulowanym API (MSW).
+
+
+
 ### Podsumowanie i Następne Kroki
 
-1. **Scalowanie**: W miarę potrzeb dodawaj więcej komponentów, takich jak formularze rejestracyjne, kalendarze dostępności, panele administracyjne itd.
-2. **Backend**: Rozważ implementację rzeczywistego backendu z REST API lub GraphQL.
-3. **Autoryzacja**: Zaimplementuj system autoryzacji, np. OAuth2.
-4. **Testowanie**: Dodaj testy jednostkowe i integracyjne, korzystając np. z Jest i React Testing Library.
-5. **Responsywność**: Dopracuj stylizację, aby aplikacja działała dobrze na różnych urządzeniach.
+[ ] **Skalowanie**: W miarę potrzeb dodawaj więcej komponentów, takich jak formularze rejestracyjne, kalendarze dostępności, panele administracyjne itd.
+[ ] **Backend**: Rozważ implementację rzeczywistego backendu z REST API lub GraphQL.
+[ ] **Autoryzacja**: Zaimplementuj system autoryzacji, np. OAuth2.
+[ ] **Testowanie**: Dodaj testy jednostkowe i integracyjne, korzystając np. z Jest i React Testing Library.
+[ ] **Responsywność**: Dopracuj stylizację, aby aplikacja działała dobrze na różnych urządzeniach.
 
-To da Ci solidne podstawy do budowania zaawansowanej aplikacji webowej dla instalatorów kamer i systemów monitoringu.### Podsumowanie i Strategia Dalszego Rozwoju
 
-Na tym etapie stworzyliśmy podstawową makietę aplikacji webowej z wykorzystaniem technologii React.js, która jest łatwa do modyfikacji. Omówiliśmy kroki, od inicjalizacji projektu, przez utworzenie podstawowej struktury komponentów, aż po integrację z symulowanym API (MSW). Poniżej przedstawiam dodatkowe wskazówki, które mogą pomóc w dalszym rozwoju projektu.
 
-### 1. Scalowanie i Nowe Funkcjonalności
+Poniżej przedstawiam plan rozwoju projektu.
+
+### 1. Sckalowanie i Nowe Funkcjonalności
 
 Dodanie bardziej kompleksowych komponentów takich jak:
 - **Formularze Rejestracyjne**: Komponenty z walidacją np. z wykorzystaniem `formik` do łatwego zarządzania formularzami w React.js.

@@ -10,4 +10,3 @@ Plan zapewnia pełne pokrycie ważnych funkcjonalności dla wszystkich użytkown
 - **Hosting**: Chmura (AWS, Google Cloud, Azure) dla skalowalności i niezawodności.
 - **Integracje Płatności**: PayPal, Stripe, tradycyjne przelewy bankowe.
 
-

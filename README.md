@@ -163,17 +163,6 @@ Specyfikacja Interfejsu UI/UX
 3. **Producent** wypełnia formularz, dołączając wszystkie niezbędne informacje i zdjęcia.
 4. **Produkt** pojawia się w marketplace, gotowy do przeglądania przez klientów i instalatorów.
 
-### Techniczne Zasady i Wymagania:
-- **Backend**: Architektura oparta na mikrousługach, np. RESTful API.
-- **Frontend**: Technologie jak React.js, Angular albo Vue.js.
-- **Baza Danych**: Relacyjna baza danych jak PostgreSQL lub MySQL.
-- **System Powiadomień**: Push notifications, email, SMS.
-- **Bezpieczeństwo**: Autoryzacja i uwierzytelnianie przez OAuth2.0, ochrona danych użytkowników, szyfrowanie.
-- **Hosting**: Chmura (AWS, Google Cloud, Azure) dla skalowalności i niezawodności.
-- **Integracje Płatności**: PayPal, Stripe, tradycyjne przelewy bankowe.
-
-Ten plan zapewnia pełne pokrycie ważnych funkcjonalności dla wszystkich użytkowników aplikacji, dostosowane do potrzeb instalatorów, producentów oraz klientów końcowych.
-
 ## Panel Instalatora [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/INSTALATOR.md)
 
 - **Dashboard**:
@@ -230,19 +219,24 @@ Ten plan zapewnia pełne pokrycie ważnych funkcjonalności dla wszystkich użyt
 
 ## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/TODO.md)
 
+Na tym etapie stworzyliśmy podstawową makietę aplikacji webowej z wykorzystaniem technologii React.js, która jest łatwa do modyfikacji.
+Od inicjalizacji projektu, przez utworzenie podstawowej struktury komponentów, aż po integrację z symulowanym API (MSW).
+
+
+
 ### Podsumowanie i Następne Kroki
 
-1. **Scalowanie**: W miarę potrzeb dodawaj więcej komponentów, takich jak formularze rejestracyjne, kalendarze dostępności, panele administracyjne itd.
-2. **Backend**: Rozważ implementację rzeczywistego backendu z REST API lub GraphQL.
-3. **Autoryzacja**: Zaimplementuj system autoryzacji, np. OAuth2.
-4. **Testowanie**: Dodaj testy jednostkowe i integracyjne, korzystając np. z Jest i React Testing Library.
-5. **Responsywność**: Dopracuj stylizację, aby aplikacja działała dobrze na różnych urządzeniach.
+[ ] **Skalowanie**: W miarę potrzeb dodawaj więcej komponentów, takich jak formularze rejestracyjne, kalendarze dostępności, panele administracyjne itd.
+[ ] **Backend**: Rozważ implementację rzeczywistego backendu z REST API lub GraphQL.
+[ ] **Autoryzacja**: Zaimplementuj system autoryzacji, np. OAuth2.
+[ ] **Testowanie**: Dodaj testy jednostkowe i integracyjne, korzystając np. z Jest i React Testing Library.
+[ ] **Responsywność**: Dopracuj stylizację, aby aplikacja działała dobrze na różnych urządzeniach.
 
-To da Ci solidne podstawy do budowania zaawansowanej aplikacji webowej dla instalatorów kamer i systemów monitoringu.### Podsumowanie i Strategia Dalszego Rozwoju
 
-Na tym etapie stworzyliśmy podstawową makietę aplikacji webowej z wykorzystaniem technologii React.js, która jest łatwa do modyfikacji. Omówiliśmy kroki, od inicjalizacji projektu, przez utworzenie podstawowej struktury komponentów, aż po integrację z symulowanym API (MSW). Poniżej przedstawiam dodatkowe wskazówki, które mogą pomóc w dalszym rozwoju projektu.
 
-### 1. Scalowanie i Nowe Funkcjonalności
+Poniżej przedstawiam plan rozwoju projektu.
+
+### 1. Sckalowanie i Nowe Funkcjonalności
 
 Dodanie bardziej kompleksowych komponentów takich jak:
 - **Formularze Rejestracyjne**: Komponenty z walidacją np. z wykorzystaniem `formik` do łatwego zarządzania formularzami w React.js.
