@@ -14,9 +14,16 @@
 
 ### Struktura Folderów
 
+Upewnij się, że Twoje katalogi mają poniższą strukturę:
+
 ```
 teleoperator-app/
-├── public/
+├── backend/
+│   ├── Dockerfile
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── server.js
+│   └── ...inne_pliki_backendu...
 ├── src/
 │   ├── components/
 │   │   ├── Header.js
@@ -28,6 +35,10 @@ teleoperator-app/
 │   ├── App.js
 │   ├── App.css
 │   └── index.js
+├── Dockerfile
+├── docker-compose.yml
 ├── package.json
-└── ...
+├── package-lock.json
+├── public/
+└── ...inne_pliki_frontendu...
 ```

@@ -172,7 +172,66 @@ Specyfikacja Interfejsu UI/UX
 + are you interested do join another [git projects](https://github.com/teleoperator-app/)?
 + have something to contribute or discuss? [Open a pull request](https://github.com/teleoperator-app/www/pulls) or [create an issue](https://github.com/teleoperator-app/www/issues).
 
-## Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/CONTRIBUTE/INSTALL.md)
+ [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/CONTRIBUTE/STRUCTURE.md)
+
+### Inicjalizacja projektu React.js
+
+1. **Zainstaluj Node.js i npm**: Najpierw upewnij się, że masz zainstalowany Node.js i npm.
+2. **Utworzenie nowego projektu React**:
+   ```sh
+   git clone 
+   cd www
+   npx create-react-app .   
+   npm start
+   ```
+
+
+### Struktura Folderów
+
+Upewnij się, że Twoje katalogi mają poniższą strukturę:
+
+```
+teleoperator-app/
+├── backend/
+│   ├── Dockerfile
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── server.js
+│   └── ...inne_pliki_backendu...
+├── src/
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   ├── InstallerList.js
+│   │   ├── Marketplace.js
+│   │   ├── Dashboard.js
+│   │   └── ...
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── Dockerfile
+├── docker-compose.yml
+├── package.json
+├── package-lock.json
+├── public/
+└── ...inne_pliki_frontendu...
+```
+
+## Node Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/CONTRIBUTE/NODE.md)
+
+
+
+Po zapisaniu pliku `package.json`, uruchom następującą komendę w terminalu, aby zainstalować wszystkie zależności:
+
+```sh
+cd src
+```
+
+```sh
+npm install
+```
+
+## Python Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/CONTRIBUTE/PYTHON.md)
 
 Zainstaluj biblioteki Pythona, jeśli jeszcze tego nie zrobiłeś. Możesz to zrobić używając `pip`:
 
@@ -188,8 +247,52 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 py -m pip install -r requirements.txt
 ```
 
- [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/CONTRIBUTE/STRUCTURE.md)
+## Uruchamianie kontenerów [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/CONTRIBUTE/DOCKER.md)
 
+Pliki `Dockerfile` i `docker-compose.yml` umożliwiaj konteneryzację aplikacji React.js (src) i backendu Express, co sprawia, że aplikacja staje się bardziej przenośna i łatwa do wdrożenia. 
+Dzięki Docker i Docker Compose możesz uruchomić złożone środowiska wielokontenerowe jedną komendą, co znacznie upraszcza zarządzanie i skalowanie aplikacji.
+
+
+
+```sh
+cd backend
+docker build -t .
+```
+
+
+```sh
+cd ..
+```
+
+```sh
+cd src
+docker build .
+```
+
+### Zbuduj i uruchom kontenery za pomocą Docker Compose:
+
+```sh
+docker compose up --build
+```
+
+### Debugowanie
+Jeśli wystąpią problemy, sprawdź logi za pomocą:
+
+```sh
+docker compose logs
+```
+
+### Zatrzymywanie kontenerów
+
+```sh
+docker compose down
+```
+
+
+If you need your build to connect to services running on the host, you can use the special host-gateway value for --add-host. In the following example, build containers resolve host.docker.internal to the host's gateway IP.
+```sh
+docker build --add-host host.docker.internal=host-gateway .
+```
 
 ## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/CONTRIBUTE/TODO.md)
 

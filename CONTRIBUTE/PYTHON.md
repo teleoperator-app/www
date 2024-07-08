@@ -1,4 +1,4 @@
-## Install
+## Python Install
 
 Zainstaluj biblioteki Pythona, jeśli jeszcze tego nie zrobiłeś. Możesz to zrobić używając `pip`:
 
@@ -13,4 +13,3 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```bash
 py -m pip install -r requirements.txt
 ```
-

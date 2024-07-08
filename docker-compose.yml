@@ -1,18 +1,30 @@
-version: '3.8'
+version: '3'
+
 services:
-  app:
-    build: ..
+
+  build:
+    build:
+      context: ./src
+      dockerfile: Dockerfile
     ports:
       - "8080:8080"
+
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+      - build
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
     environment:
       - NODE_ENV=production
-    depends_on:
-      - db
-  db:
-    image: postgres:13
-    environment:
-      - POSTGRES_USER=exampleuser
-      - POSTGRES_PASSWORD=examplepass
-      - POSTGRES_DB=exampledb
-    ports:
-      - "5432:5432"
