@@ -143,28 +143,18 @@ Specyfikacja Interfejsu UI/UX
 
 ---
 
-## Dokumentacja [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/CONTRIBUTE/CONTRIBUTE.md)
+## Star History [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/CONTRIBUTE/CONTRIBUTE.md)
 
-```bash
-wget https://raw.githubusercontent.com/flatedit/bash/main/flatedit.sh
-chmod +x flatedit.sh
-./flatedit.sh update
-```
+[![Star History Chart](https://api.star-history.com/svg?repos=teleoperator-app/www&type=Date)](https://star-history.com/#teleoperator-app/www&Date)
 
 
-```bash
-./flatedit.sh install
-./flatedit.sh init
-./flatedit.sh
-```
+## [Contributions](http://contribution.softreck.dev)
 
-
-
-```bash
-./flatedit install
-./flatedit init
-./flatedit
-```
+[CONTRIBUTION](CONTRIBUTION.md) are always welcome:
++ did you found an [Issue or Mistake](https://github.com/teleoperator-app/www/issues/new)?
++ do you want to [improve](https://github.com/teleoperator-app/www/edit/main/README.md) the article?
++ are you interested do join another [git projects](https://github.com/teleoperator-app/)?
++ have something to contribute or discuss? [Open a pull request](https://github.com/teleoperator-app/www/pulls) or [create an issue](https://github.com/teleoperator-app/www/issues).
 
 ## Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/CONTRIBUTE/INSTALL.md)
 
