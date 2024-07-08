@@ -1,7 +1,6 @@
 docs/HEAD.md
 docs/MAIN.md
 docs/INSTALL.md
-docs/DOCKER.md
 docs/INIT.md
 docs/STRUCTURE.md
 docs/PLAN.md
