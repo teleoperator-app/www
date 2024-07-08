@@ -13,11 +13,6 @@ Panel Instalatora - [service.teleoperator.app](http://service.teleoperator.app)
 
 Panel Producenta - [product.teleoperator.app](http://product.teleoperator.app)
 
-
-
-+ [Detekcja obiektów w systemach wizyjnych - Raport www - Jak zmieniał się rynek systemów wizyjnych w zastosowaniach przemysłowych w ostatniej dekadzie? Jak zmieni się rynek do roku 2030?](https://www.teleoperator.info/)
-+ [CCTV 2024 - Global Report](http://cctv.teleoperator.info)
-
 ## Cel projektu [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/MAIN.md)
 
 **teleoperator.app** łączy instalatorów kamer i systemów monitoringu, producentów oraz klientów końcowych,
@@ -137,6 +132,14 @@ Specyfikacja Interfejsu UI/UX
 ## About us [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/FOOT.md)
 + [softreck.com](http://softreck.com)
 + [telemonit.com](http://telemonit.com)
+
+
+
+### More
+
++ [Detekcja obiektów w systemach wizyjnych - Raport www - Jak zmieniał się rynek systemów wizyjnych w zastosowaniach przemysłowych w ostatniej dekadzie? Jak zmieni się rynek do roku 2030?](https://www.teleoperator.info/)
++ [CCTV 2024 - Global Report](http://cctv.teleoperator.info)
+
 
 
 
