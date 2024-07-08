@@ -1,4 +1,4 @@
-## Panel Producenta
+## Panel Producenta - [product.teleoperator.app](http://product.teleoperator.app)
 
 - **Dodawanie Produktów**:
   - **Formularz Dodawania**: Formularz do wprowadzania informacji o nowych produktach, w tym opisów, zdjęć, cen, stanów magazynowych.

@@ -1,4 +1,4 @@
-## Panel Instalatora
+## Panel Instalatora - [service.teleoperator.app](http://service.teleoperator.app)
 
 - **Dashboard**:
   - **Powiadomienia**: Informacje o nowych zleceniach, wymaganych akcjach, wiadomościach od klientów.

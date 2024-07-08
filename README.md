@@ -41,14 +41,15 @@ Plan zapewnia pełne pokrycie ważnych funkcjonalności dla wszystkich użytkown
 - **Hosting**: Chmura (AWS, Google Cloud, Azure) dla skalowalności i niezawodności.
 - **Integracje Płatności**: PayPal, Stripe, tradycyjne przelewy bankowe.
 
-## Strona Główna [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/PANEL.md)
+## Strona Główna  - [menu.teleoperator.app](http://menu.teleoperator.app) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/PANEL.md)
+
 Specyfikacja Interfejsu UI/UX
 
 - **Menu Główne**: Zakładki takie jak "Znajdź Instalatora", "Produkty", "Moje konto", "Pomoc".
 - **Pole Wyszukiwania**: Umożliwiające wyszukiwanie instalatorów lub produktów.
 - **Panel Logowania/Rejestracji**: Korzystający z systemu mogą się zalogować, zarejestrować lub odzyskać hasło.
 
-## Panel Klienta [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/KLIENT.md)
+## Panel Klienta - [client.teleoperator.app](http://client.teleoperator.app) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/KLIENT.md)
 
 - **Wyszukiwanie Instalatora**:
   - **Filtry Wyszukiwania**: Lokalizacja, dostępność, recenzje, koszt maksimum.
@@ -70,7 +71,7 @@ Specyfikacja Interfejsu UI/UX
   - **Wystawianie Oceny**: Po zakończeniu zlecenia możliwość ocenienia instalatora.
   - **Podgląd Recenzji**: Możliwość przeglądania wystawionych opinii.
 
-## Panel Instalatora [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/INSTALATOR.md)
+## Panel Instalatora - [service.teleoperator.app](http://service.teleoperator.app) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/INSTALATOR.md)
 
 - **Dashboard**:
   - **Powiadomienia**: Informacje o nowych zleceniach, wymaganych akcjach, wiadomościach od klientów.
@@ -87,7 +88,7 @@ Specyfikacja Interfejsu UI/UX
 - **Oceny Klientów**: 
  - **Wystawianie Oceny**: Możliwość ocenienia klientów po zakończeniu zlecenia.
 
-## Panel Producenta [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/PRODUCENT.md)
+## Panel Producenta - [product.teleoperator.app](http://product.teleoperator.app) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/PRODUCENT.md)
 
 - **Dodawanie Produktów**:
   - **Formularz Dodawania**: Formularz do wprowadzania informacji o nowych produktach, w tym opisów, zdjęć, cen, stanów magazynowych.
@@ -96,7 +97,7 @@ Specyfikacja Interfejsu UI/UX
   - **Edycja Produktów**: Możliwość aktualizacji informacji o istniejących produktach.
   - **Śledzenie Zamówień**: Widok wszystkich zamówień, statusy realizacji.
 
-## Support i Helpdesk [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/SUPPORT.md)
+## Support i Helpdesk - [help.teleoperator.app](http://help.teleoperator.app) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/SUPPORT.md)
 
 - **Baza Wiedzy**: Artykuły, FAQ, poradniki.
 - **Kontakt**: Formularz kontaktowy, live chat, numer telefonu do wsparcia.

@@ -1,4 +1,4 @@
-## Panel Klienta
+## Panel Klienta - [client.teleoperator.app](http://client.teleoperator.app)
 
 - **Wyszukiwanie Instalatora**:
   - **Filtry Wyszukiwania**: Lokalizacja, dostępność, recenzje, koszt maksimum.
