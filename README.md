@@ -24,56 +24,6 @@ oraz panel dla klientów do zamawiania produktów i usług oraz rozliczania i su
 - po wykonaniu zlecenia zleceniodawca  otrzymuje zapłatę za usługę i wystawia ocenę dla zlecniodawcy
 - zleceniobiorca wystawia ocenę zleceniodawcy
 
-## install python [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/INSTALL.md)
-
-Zainstaluj biblioteki Pythona, jeśli jeszcze tego nie zrobiłeś. Możesz to zrobić używając `pip`:
-
-```bash
-py -m pip install --upgrade pip
-py -m pip install --upgrade setuptools
-py -m pip install --upgrade wheel
-py -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-```
-
-```bash
-py -m pip install -r requirements.txt
-```
-
- [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/STRUCTURE.md)
-
-### Inicjalizacja projektu React.js
-
-1. **Zainstaluj Node.js i npm**: Najpierw upewnij się, że masz zainstalowany Node.js i npm.
-2. **Utworzenie nowego projektu React**:
-   ```sh
-   git clone 
-   cd www
-   npx create-react-app .   
-   npm start
-   ```
-
-
-### Struktura Folderów
-
-```
-teleoperator-app/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── Header.js
-│   │   ├── Footer.js
-│   │   ├── InstallerList.js
-│   │   ├── Marketplace.js
-│   │   ├── Dashboard.js
-│   │   └── ...
-│   ├── App.js
-│   ├── App.css
-│   └── index.js
-├── package.json
-└── ...
-```
-
 ## Techniczne Zasady i Wymagania [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/PLAN.md)
 
 Plan zapewnia pełne pokrycie ważnych funkcjonalności dla wszystkich użytkowników aplikacji, dostosowane do potrzeb instalatorów, producentów oraz klientów końcowych.
@@ -217,7 +167,52 @@ Specyfikacja Interfejsu UI/UX
 3. **Producent** wypełnia formularz, dołączając wszystkie niezbędne informacje i zdjęcia.
 4. **Produkt** pojawia się w marketplace, gotowy do przeglądania przez klientów i instalatorów.
 
-## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/TODO.md)
+ [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/FOOT.md)
+
+
+flatedit Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/CONTRIBUTE/CONTRIBUTE.md)
+
+```bash
+wget https://raw.githubusercontent.com/flatedit/bash/main/flatedit.sh
+chmod +x flatedit.sh
+./flatedit.sh update
+```
+
+
+```bash
+./flatedit.sh install
+./flatedit.sh init
+./flatedit.sh
+```
+
+
+
+```bash
+./flatedit install
+./flatedit init
+./flatedit
+```
+
+## install python [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/CONTRIBUTE/INSTALL.md)
+
+Zainstaluj biblioteki Pythona, jeśli jeszcze tego nie zrobiłeś. Możesz to zrobić używając `pip`:
+
+```bash
+py -m pip install --upgrade pip
+py -m pip install --upgrade setuptools
+py -m pip install --upgrade wheel
+py -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+
+```bash
+py -m pip install -r requirements.txt
+```
+
+ [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/CONTRIBUTE/STRUCTURE.md)
+
+
+## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/CONTRIBUTE/TODO.md)
 
 Na tym etapie stworzyliśmy podstawową makietę aplikacji webowej z wykorzystaniem technologii React.js, która jest łatwa do modyfikacji.
 Od inicjalizacji projektu, przez utworzenie podstawowej struktury komponentów, aż po integrację z symulowanym API (MSW).
@@ -281,9 +276,6 @@ Monitoruj działanie aplikacji i poprawiaj jej wydajność:
 Automatyzacja procesów wdrożeniowych zapewni częste i pewne wdrożenia:
 - **Docker i Kubernetes**: Zautomatyzuj wdrożenia aplikacji przy użyciu konteneryzacji.
 - **CI/CD**: Implementacja potoków CI/CD do automatyzacji buildów, testów i wdrożeń.
-
- [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/teleoperator-app/www/edit/main/docs/FOOT.md)
-
 
 ---
 + Modular Documentation made possible by the [FlatEdit](http://www.flatedit.com) project.

@@ -1,7 +1,5 @@
 docs/HEAD.md
 docs/MAIN.md
-docs/INSTALL.md
-docs/STRUCTURE.md
 docs/PLAN.md
 docs/PANEL.md
 docs/KLIENT.md
@@ -9,7 +7,8 @@ docs/INSTALATOR.md
 docs/PRODUCENT.md
 docs/SUPPORT.md
 docs/USECASE.md
-docs/TODO.md
 docs/FOOT.md
-
-
+CONTRIBUTE/CONTRIBUTE.md
+CONTRIBUTE/INSTALL.md
+CONTRIBUTE/STRUCTURE.md
+CONTRIBUTE/TODO.md
