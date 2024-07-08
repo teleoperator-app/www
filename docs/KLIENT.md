@@ -1,4 +1,5 @@
 ## Panel Klienta
+
 - **Wyszukiwanie Instalatora**:
   - **Filtry Wyszukiwania**: Lokalizacja, dostępność, recenzje, koszt maksimum.
   - **Lista Instalatorów**: Z profilem, dostępnością terminów, recenzjami i cennikami usług.
@@ -19,31 +20,3 @@
   - **Wystawianie Oceny**: Po zakończeniu zlecenia możliwość ocenienia instalatora.
   - **Podgląd Recenzji**: Możliwość przeglądania wystawionych opinii.
 
-
-#### 3. Panel Instalatora
-- **Dashboard**:
-  - **Powiadomienia**: Informacje o nowych zleceniach, wymaganych akcjach, wiadomościach od klientów.
-  - **Mój Kalendarz**: Widok dostępnych terminów i zarezerwowanych usług.
-
-- **Zarządzanie Zleceniami**:
-  - **Akceptacja/Propozycje Zmian**: Opcje do przyjęcia zlecenia, sugerowania zmian lub żądania dodatkowych danych.
-  - **Wysyłanie Ofert**: Wybór produktów i usług z marketplace do załączenia w ofercie.
-
-- **Umowy i Rozliczenia**: 
-  - **Podgląd Umowy**: Czytanie, zatwierdzanie i podpisywanie umów.
-  - **Statusy Płatności**: Monitorowanie płatności za zlecenia.
-
-- **Oceny Klientów**: 
-  - **Wystawianie Oceny**: Możliwość ocenienia klientów po zakończeniu zlecenia.
-
-#### 4. Panel Producenta
-- **Dodawanie Produktów**:
-  - **Formularz Dodawania**: Formularz do wprowadzania informacji o nowych produktach, w tym opisów, zdjęć, cen, stanów magazynowych.
-
-- **Zarządzanie Ofertami**: 
-  - **Edycja Produktów**: Możliwość aktualizacji informacji o istniejących produktach.
-  - **Śledzenie Zamówień**: Widok wszystkich zamówień, statusy realizacji.
-
-#### 5. Support i Helpdesk
-- **Baza Wiedzy**: Artykuły, FAQ, poradniki.
-- **Kontakt**: Formularz kontaktowy, live chat, numer telefonu do wsparcia.

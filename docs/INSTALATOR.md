@@ -14,3 +14,4 @@
 
 - **Oceny Klientów**: 
  - **Wystawianie Oceny**: Możliwość ocenienia klientów po zakończeniu zlecenia.
+
