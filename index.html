@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Input Field</title>
+</head>
+<body>
+<input type="text" id="myInput" placeholder="Enter something...">
+<script>
+    const inputField = document.getElementById('myInput');
+    const hintText = 'Enter something...';
+
+    inputField.addEventListener('focus', () => {
+        if (inputField.value === hintText) {
+            inputField.value = '';
+        }
+    });
+
+    inputField.addEventListener('blur', () => {
+        if (inputField.value === '') {
+            inputField.value = hintText;
+        }
+    });
+</script>
+</body>
+</html>
