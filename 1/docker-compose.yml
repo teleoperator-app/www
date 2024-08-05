@@ -1,0 +1,33 @@
+version: '3.8'
+services:
+  frontend:
+    image: node:14
+    working_dir: /app
+    volumes:
+      - ./frontend:/app
+    command: sh -c "npm install && npm start"
+    ports:
+      - "3000:3000"
+
+  backend:
+    image: node:14
+    working_dir: /app
+    volumes:
+      - ./backend:/app
+    command: sh -c "npm install && npm run dev"
+    ports:
+      - "5000:5000"
+    environment:
+      DATABASE_URL: postgres://user:password@db:5432/cybersecurity_db
+
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: cybersecurity_db
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+volumes:
+  db-data:
