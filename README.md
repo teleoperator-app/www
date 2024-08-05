@@ -450,5 +450,22 @@ Automatyzacja procesów wdrożeniowych zapewni częste i pewne wdrożenia:
 - **Docker i Kubernetes**: Zautomatyzuj wdrożenia aplikacji przy użyciu konteneryzacji.
 - **CI/CD**: Implementacja potoków CI/CD do automatyzacji buildów, testów i wdrożeń.
 
+
+
 ---
+
+## Ciekawe artykuły
+
+[World Economic Forum Initiatives to Support Impact Start-ups and Scale Nature-focused Innovations in China > Press releases - World Economic Forum](https://www.weforum.org/press/2024/06/world-economic-forum-initiatives-to-support-impact-start-ups-and-scale-nature-focused-innovations-in-china/)
+
+### RoboticsCats
+specjalizuje się w wykrywaniu pożarów lasów przy użyciu sztucznej inteligencji. Startup, który jest już wdrożony w ponad 10 krajach, współpracuje z rządami i organizacjami w celu łagodzenia ryzyka pożarów lasów poprzez zautomatyzowany całodobowy monitoring, zwiększając dokładność wykrywania i czas reakcji.
+
+### Green Anhui
+wykorzystuje kamery na podczerwień, DNA mszyc i aplikacje systemu monitorowania patroli, aby śledzić i bezpiecznie zarządzać populacją i rozmieszczeniem dzikich zwierząt na obszarach chronionych. Jego system patroli można szeroko powielać w rezerwatach przyrody na całym świecie, równolegle z działaniami wspierającymi społeczności.
+
+
+
+---
+
 + Modular Documentation made possible by the [FlatEdit](http://www.flatedit.com) project.
