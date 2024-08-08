@@ -136,39 +136,6 @@ export default App;
 
 ### Krok 5: Stylizacja (opcjonalnie minimalna stylizacja w CSS)
 
-#### 1. `src/App.css`
-
-```css
-.App {
-  font-family: Arial, sans-serif;
-}
-
-header {
-  background: #333;
-  color: white;
-  padding: 1em;
-}
-
-header nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-header nav ul li {
-  display: inline;
-  margin: 0 1em;
-}
-
-footer {
-  background: #333;
-  color: white;
-  text-align: center;
-  padding: 1em 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-```
 
 To setup should allow you to quickly iterate on your initial mockup and provide a basic structure for all necessary pages and components. From here, you can expand with more specific features, enhance the styling, and integrate backend functionalities as required.### Krok 6: Dodanie przykładowych danych i funkcji
 
@@ -288,68 +255,6 @@ export default Dashboard;
 #### 1. `src/App.css`
 
 ```css
-.App {
-  font-family: Arial, sans-serif;
-}
-
-header {
-  background-color: #333;
-  color: white;
-  padding: 1em;
-}
-
-header nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-header nav ul li {
-  display: inline;
-  margin-right: 1em;
-}
-
-header nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 1em 0;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-h2 {
-  color: #333;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 1em;
-  border: 1px solid #ddd;
-  padding: 1em;
-  border-radius: 5px;
-}
-
-li h3 {
-  margin: 0 0 0.5em;
-}
-
-li p {
-  margin: 0 0 0.5em;
-}
-
-li p:last-child {
-  margin-bottom: 0;
-}
 ```
 
 ### Krok 8: Uruchomienie projektu
