@@ -1,7 +1,8 @@
-# Tech Stack. 
+# Tech Stack
  
+![obraz](https://github.com/user-attachments/assets/032ebb5a-f5f6-4c64-9985-40238c073a29)
 
-Mobile and web: Netflix has adopted Swift and Kotlin to build native mobile apps. For its web application, it uses React. 
+Mobile and web: Swift and Kotlin to build native mobile apps. For its web application, it uses React. 
  
 Frontend/server communication: GraphQL. 
  
